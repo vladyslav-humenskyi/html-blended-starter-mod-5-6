@@ -1,0 +1,18 @@
+/* Мобільні стилі */
+.page-footer {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: #1b414b;
+}
+
+/* Планшетні стилі */
+@media screen and (min-width: 768px) {
+  /* ... */
+}
+
+/* Десктопні стилі */
+@media screen and (min-width: 1280px) {
+  .page-footer {
+    padding-top: 50px;
+  }
+}

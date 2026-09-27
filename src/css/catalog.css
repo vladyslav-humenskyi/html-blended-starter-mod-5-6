@@ -1,0 +1,21 @@
+/* Мобільні стилі */
+.catalog-section {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+/* Планшетні стилі */
+@media screen and (min-width: 768px) {
+  .catalog-section {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+}
+
+/* Десктопні стилі */
+@media screen and (min-width: 1280px) {
+  .catalog-section {
+    padding-top: 150px;
+    padding-bottom: 75px;
+  }
+}

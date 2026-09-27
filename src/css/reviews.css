@@ -1,0 +1,21 @@
+/* Мобільні стилі */
+.reviews-section {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+/* Планшетні стилі */
+@media screen and (min-width: 768px) {
+  .reviews-section {
+    padding-top: 60px;
+    padding-bottom: 120px;
+  }
+}
+
+/* Десктопні стилі */
+@media screen and (min-width: 1280px) {
+  .reviews-section {
+    padding-top: 75px;
+    padding-bottom: 150px;
+  }
+}
